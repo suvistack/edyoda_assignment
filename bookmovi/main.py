@@ -16,8 +16,8 @@ class moviephase1():
         print("             _/ \_                  ")
         print("HELLO!!!  Welcome to movie ticket booking: ")
         print('Are you a USER or a ADMIN')
-        print('For USER press:1')
-        print('For ADMIN press:2')
+        print('For USER press: 1')
+        print('For ADMIN press: 2')
         key=int(input('Enter the no.:'))
         if key==1:
             self.user_login()
